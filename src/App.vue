@@ -47,8 +47,7 @@
                   text
                 >   
                 {{page}}
-                  <v-btn
-                    
+                  <v-btn 
                     color="pink"
                     :loading="value"
                     @click.native="click"

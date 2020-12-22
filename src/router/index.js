@@ -6,12 +6,9 @@ import MonCompte from '../views/MonCompte.vue'
 
 Vue.use(VueRouter)
 
+
 const routes = [
-  {
-    path: '@/components/Navbar',
-    name: 'Navbar',
-    component: 'Navbar'
-  },
+
   {
     path: '/',
     name: 'home',

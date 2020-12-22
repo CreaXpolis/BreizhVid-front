@@ -1,8 +1,7 @@
 <template>
   <div class="MonCompte">
-    <h1>TJE me connecte a mon compte</h1>
+    <h1>JE me connecte a mon compte</h1>
  
-
      <v-app id="inspire">
          <v-main class= "lolol">
               <v-container>
@@ -13,7 +12,7 @@
             >
             <H1  > This is an youyou page</H1>
               
-              <!--  -->
+             
             </v-sheet>
           </v-col>
               </v-container>
@@ -22,12 +21,7 @@
  </div>
 </template>
 
-
-
-<script>
-  export default {
-    data: () => ({
-   
-    }),
-  }
-</script>
+ <script>
+export default {
+};
+</script> -->

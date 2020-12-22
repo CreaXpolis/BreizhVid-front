@@ -6,12 +6,14 @@
     
   </template>
   
-  <script>
-  export default {
-  
-  }
-  </script>
-  
-  <style>
-  
-  </style>
+   <script>
+export default {
+  data: () => ({
+    links: [
+      { text: "Home", route: "/" },
+      { text: "Nouveauté", route: "/about" },
+      { text: "Mon Compte", route: "/MonCompte" },
+    ],
+  }),
+};
+</script>

@@ -1,7 +1,9 @@
-<template>
-  <v-app id="inspire"><v-app-bar
-      app 
-    >
+<!--<template>
+<div class="Navbar">
+    <v-app id="inspire">
+    
+      <v-app-bar
+      app  >
       <v-container class="py-0 fill-height">
         <v-btn
           v-for="link in links"
@@ -22,9 +24,10 @@
             rounded
             solo-inverted
           ></v-text-field>
-        </v-responsive>
-      </v-container>
-    </v-app-bar>
+          </v-responsive>
+         </v-container>
+       </v-app-bar>
+    </v-app>
 
 <v-spacer></v-spacer>
 
@@ -32,17 +35,21 @@
  src="BreV.png"
  height="700"
  >
-  </v-parallax>
+ </v-parallax>
+    
+</div>
  </template>
 
- <script>
-  export default {
-    data: () => ({
-      links: [
-        {text: 'Home', route: '/'},
-        {text: 'Nouveauté', route: "/about"},
-        {text: 'Mon Compte', route: '/MonCompte'},
-      ],
-    }),
-  }
-</script>
+<script>
+export default {
+  data: () => ({
+    links: [
+      { text: "Home", route: "/" },
+      { text: "Nouveauté", route: "/about" },
+      { text: "Mon Compte", route: "/MonCompte" },
+    ],
+  }),
+};
+</script> -->
+ 
+ 

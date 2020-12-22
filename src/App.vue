@@ -1,8 +1,7 @@
 <template>
   <v-app id="inspire">
     <v-app-bar
-      app
-      
+      app 
     >
       <v-container class="py-0 fill-height">
         <v-btn
@@ -16,7 +15,7 @@
         <v-spacer></v-spacer>
 
         <v-responsive max-width="260">
-          <v-text-field
+          <v-text-field  
             dense
             flat
             hide-details
@@ -41,21 +40,18 @@
           <v-col cols="2">
             <v-sheet rounded="lg">
               <v-list color="transparent">
-                <v-list-item                  
-                  v-for="page in pages"
-                  :key="page"
-                  text
-                >   
-                {{page}}
-                  <v-btn 
-                    color="pink"
+              
+                 <v-btn 
+                    color="blue"
                     :loading="value"
                     @click.native="click"
                     :disabled="value"
+                     v-for="page in pages"
                     :key="page"
-                  > </v-btn>
-
-                </v-list-item>
+                    text
+                  > 
+                  {{page}}
+                  </v-btn>
               </v-list>
             </v-sheet>
           </v-col>
@@ -80,10 +76,10 @@
   export default {
     data: () => ({
       links: [
-        'Dashboard',
+        'Accueil',
         'Messages',
-        'Profile',
-        'Updates',
+        'Nouveauté',
+        'Mon compte',
       ],
       pages: [
         'Films',

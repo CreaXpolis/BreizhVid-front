@@ -79,8 +79,10 @@
 
   export default {
     data: () => ({
-      links: [
-        {text: 'Home', route: '/'},
+      links: [          /* Pour ce qui est des boutons, jai reussi à les connecter 
+                          en faisant ce petit code, sauf que je n'ai pas eu le temps de chercher 
+                          une solution pour que ca ne s'affiche pas sur le site! */
+        {text: 'Home', route: '/'}, 
         {text: 'Nouveauté', route: "/about"},
         {text: 'Mon Compte', route: '/MonCompte'},
       ],
